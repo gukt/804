@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "singularName": "chapter",
+    "pluralName": "chapters",
+    "displayName": "Chapter",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "xj_id": {
+      "type": "string"
+    },
+    "xj_pid": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "xj_subject_id": {
+      "type": "string"
+    },
+    "xj_subject_name": {
+      "type": "string"
+    }
+  }
+}

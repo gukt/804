@@ -1,0 +1,62 @@
+{
+  "kind": "collectionType",
+  "collectionName": "questions",
+  "info": {
+    "singularName": "question",
+    "pluralName": "questions",
+    "displayName": "Question",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "analysis": {
+      "type": "text"
+    },
+    "options": {
+      "type": "json"
+    },
+    "correctOption": {
+      "type": "integer"
+    },
+    "xj_id": {
+      "type": "string"
+    },
+    "type": {
+      "type": "integer"
+    },
+    "xj_subject_id": {
+      "type": "string"
+    },
+    "xj_subject_name": {
+      "type": "string"
+    },
+    "year": {
+      "type": "integer"
+    },
+    "period": {
+      "type": "integer"
+    },
+    "no": {
+      "type": "integer"
+    },
+    "xj_chapter_id": {
+      "type": "string"
+    },
+    "xj_chapter_name": {
+      "type": "string"
+    },
+    "sn": {
+      "type": "integer"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

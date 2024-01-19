@@ -1,0 +1,28 @@
+{
+  "kind": "singleType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "Setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "appName": {
+      "type": "string"
+    },
+    "announcements": {
+      "type": "json"
+    },
+    "nextExamAt": {
+      "type": "date"
+    },
+    "terms": {
+      "type": "richtext"
+    }
+  }
+}

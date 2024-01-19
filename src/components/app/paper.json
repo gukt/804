@@ -1,0 +1,24 @@
+{
+  "collectionName": "components_app_papers",
+  "info": {
+    "displayName": "Paper",
+    "icon": "feather"
+  },
+  "options": {},
+  "attributes": {
+    "year": {
+      "type": "integer"
+    },
+    "semester": {
+      "type": "integer"
+    },
+    "remark": {
+      "type": "string"
+    },
+    "subject": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::subject.subject"
+    }
+  }
+}
